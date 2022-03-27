@@ -25,6 +25,7 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         goversion: "https://dl.google.com/go/go1.13.1.linux-amd64.tar.gz"
-        project_path: "./cmd/test-binary"
-        binary_name: "test-binary"
+        project_path: "."
+        pre_command: "go get -u github.com/wxbool/video-srt"
+        binary_name: "video-srt-binary"
         extra_files: LICENSE README.md
