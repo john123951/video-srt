@@ -6,6 +6,8 @@
 
 Windows-GUI版本：[https://github.com/wxbool/video-srt-windows](https://github.com/wxbool/video-srt-windows)
 
+[![Go](https://github.com/john123951/video-srt/actions/workflows/go.yml/badge.svg)](https://github.com/john123951/video-srt/actions/workflows/go.yml)
+
 ## 下载安装
 ```shell
 go get -u github.com/wxbool/video-srt
